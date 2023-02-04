@@ -9,7 +9,7 @@
 <p><strong><em> --> Feel free to contribute to this .If you have anything to add or change , feel free to do so . </em></strong></p> 
 <h4>I know there are lots of plances to learn web dev for free . I am here compiling my learning journey along with resources that I have used.</h4>
 <hr>
-  <h1>Content List <sub> In no perticular order</sub></h1>
+  <h1>Content List <sub>In no perticular order</sub></h1>
   <ol>
     <li> HTML</li>
     <li> CSS</li>
