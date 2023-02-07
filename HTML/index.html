@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&#9973; Html All required tags (Almost)</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="  Animesh Tiwari" />
+  </head>
+  <body>
+    <h3>Paragraph Tag</h3>
+    <pre>&lt;p&gt;&lt;/p&gt;</pre>
+    <p>This is a paragraph</p>
+
+    <hr />
+
+    <h3>Heading tag</h3>
+    <pre>&lt;h1&gt;&lt;/h1&gt; to &lt;h6&gt;&lt;/h6&gt;</pre>
+
+    <h1>This ia a heading #1</h1>
+    <h2>This ia a heading #2</h2>
+    <h3>This ia a heading #3</h3>
+    <h4>This ia a heading #4</h4>
+    <h5>This ia a heading #5</h5>
+    <h6>This ia a heading #6</h6>
+
+    <hr />
+
+    <h3>Division Tag</h3>
+    <pre>&lt;div&gt;&lt;/div&gt;</pre>
+    <div>
+      <p>This is a paragraph inside a div tag</p>
+    </div>
+
+    <hr />
+
+    <h3>Unordered List</h3>
+    <pre>&lt;ul&gt; &lt;li&gt;&lt;/li&gt; &lt;/ul&gt;</pre>
+    <ul>
+      <li>This is a list element / list item </li>
+      <ul>
+        <li>This is a list item inside a ul which is inside ul -> nested List</li>
+      </ul>
+      <li> For styling -> <ul><li>list-style-type</li>
+      <li>list-style-image</li></ul></li>
+    </ul>
+
+    <hr>
+
+    <h3>Emojicons to use</h3>
+    <pre> & # 1234 ; ->emoji code pur together to make emoji</pre>
+    <p>In the title we can add any emoji / image to make the website logo appear on the top. &#9898; 
+      <pre>
+        <code>&lt;link rel="shortcut icon" href="My_Icon.ico" /&gt 
+        </code>we can also put this in Head for image icon.
+      </pre>
+    </p>
+
+    <hr>
+
+    <h3>Table html Element</h3>
+    <pre>&lt;table&gt; &lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt; &lt;/table&gt;</pre>
+    <p> table -> table row -> table data. Each tr means additional row and each td means column in that row.</p>
+    <p> Table can be used to put layout . And also for nested tables. Table can have any tag inside the td . table inside table , div
+      inside table , images ...everything can get inside table , it can help in layouting .
+    </p>
+    <p>Table element can have</p>
+    <ul><li>table head -> thead</li>
+      <li>table body -> tbody</li>
+    <li>table fooer -> tfoot</li>
+    <li>Table head in bold can be given by th instead of regular td</li>
+  <li>rows and columns -> rowspan="" colspan="" -> attributes ot td</li>
+<li>It can have a caption right after starting table tag that tells us about the table .</li></ul>
+<table border="1">
+  <caption>This is ccaption -> table conatins some infor about something</caption>
+  <thead>
+    <tr><th>This column name</th><th>this 2nd column name</th><th>This 3rd column name</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>this is some info</td><td>this is some 2nd info</td><td>this is 3rd some info</td></tr>
+    <tr><td>this is some info, and I am making this large so you can see the wrap of content and table adjusting according to size
+    </td><td>this is some 2nd info</td><td>this is 3rd some info</td></tr>
+    <tr><td colspan="2">this is some info and using colspan</td><td>this is some 2nd info</td></tr>
+    <tr><td>this is some info</td><td rowspan="2">this is some 2nd info but rowspan is 2, and table will not have 1 data in next row to accomodate this td</td><td>this is 3rd some info</td></tr>
+    <tr><td>this is some info</td><td>this is 3rd some info</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><th>This is heading using th.</th><td>this is just some info in tfoot infront of th</td><td>this is new info in 3rd col</td></tr>
+  </tfoot>
+</table>
+  </body>
+</html>
